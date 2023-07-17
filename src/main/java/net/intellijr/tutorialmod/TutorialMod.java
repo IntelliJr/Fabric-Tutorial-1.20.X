@@ -2,6 +2,7 @@ package net.intellijr.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.intellijr.tutorialmod.block.ModBlocks;
 import net.intellijr.tutorialmod.item.ModItemGroups;
 import net.intellijr.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
@@ -23,5 +24,6 @@ public class TutorialMod implements ModInitializer {
 
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
