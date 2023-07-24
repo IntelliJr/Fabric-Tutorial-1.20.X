@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "lime_dye",
+  "group": "brown_dye",
   "ingredients": [
     {
       "item": "minecraft:red_dye"
